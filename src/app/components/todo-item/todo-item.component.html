@@ -1,0 +1,9 @@
+<div class="todo-wrapper">
+
+  <button class="removeTodo" (click)="removeTodo() "> Remove </button>
+  <input type="checkbox" [(ngModel)]="todo.checked" >
+  <span class="yazi" [class.checkedTodo]="todo.checked">{{todo.text}}</span>
+
+
+
+</div>
